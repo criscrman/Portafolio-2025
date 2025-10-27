@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+
+
+.footer {
+    @apply rounded-b-md bg-blue-700 text-gray-700 text-sm 
+    grid grid-cols-3;
+
+}
+
+.footer a {
+    @apply gap-1 p-2 text-left text-white;
+
+}
+.footer h3{ 
+    @apply text-lg font-semibold mb-2 text-red-500;
+}
+   
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer p{
+    @apply col-start-1 col-end-7 font-bold mb-3 text-white;
+}
+
+.footer .footer-links {
+    @apply   flex flex-col py-0 px-2  mx-1 ;
+
+}
+
+
+
+

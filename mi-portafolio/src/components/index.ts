@@ -1,0 +1,5 @@
+export * from './button/Button.tsx'
+export * from './header/Header.tsx'
+export * from './footer/Footer.tsx' 
+export * from './home/Home.tsx'
+export * from './publico/educacion.tsx'

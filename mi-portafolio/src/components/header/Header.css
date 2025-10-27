@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-sm: 48rem;
+  --breakpoint-md: 64rem;
+  --breakpoint-lg: 80rem;
+  --breakpoint-xl: 96rem;
+  --breakpoint-2xl: 128rem;
+}
+header {
+  @apply flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf4] px-10 py-3;
+}
+
+.Div1 {
+  @apply flex items-center gap-4 text-[#0d141c];
+}
+
+.Div2 {
+  @apply flex flex-1 justify-end gap-8;
+}
+
+h2 {
+  @apply text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em];
+}
+
+.main {
+  @apply relative flex size-full bg-amber-600 md:bg-slate-300  md:m-0 sm:bg-amber-200 m-1.5 mt-0.5  overflow-x-hidden;
+}

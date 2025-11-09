@@ -4,8 +4,11 @@ export const Educacion = () => {
   return (
       
     <main>
-      <h1>Educación Pepe</h1>
 
+      <h1>Acerca de Mí.</h1>
+
+      <p>Soy un apasionado de la informática, los datos y la educación, con un enfoque en el desarrollo de soluciones modernas e innovadoras que mejoren los sistemas y procesos de cualquier área de una organización, con o sin ánimo de lucro. Mi formación académica y experiencia personal me han permitido adquirir habilidades en diversas áreas, incluyendo la programación, el diseño de sistemas, base de datos, análisis de datos y la gestión de proyectos.</p>
+      <p>Mi objetivo es seguir aprendiendo y creciendo en el campo de la ciencia de datos, contribuyendo al desarrollo de soluciones que generen un impacto positivo a nuestro alrededor, que incremente la productividad, la eficiencia y la innovación.</p>
 
       <div className="secuContainer">
             <h2 className='h2Educacion'>Educación Secundaria</h2>
@@ -45,7 +48,24 @@ export const Educacion = () => {
             <li>Institución: Universidad Nacional Abierta y a Distancia.</li>
             <li>Año de Inicio: 2021</li>
             <li>Año de Culminación: 2025</li>
-            <li>Programa: Ingeniería de Sistemas</li>
+            
+          </ul>
+
+          <h4>Resumen de la Carrera:</h4>
+          <p>La Ingeniería de Sistemas es una disciplina que se enfoca en el diseño, desarrollo y gestión de sistemas complejos, integrando conocimientos de diversas áreas para optimizar procesos y soluciones tecnológicas.</p>
+          <p>Esta carrera proporciona habilidades para analizar, diseñar e implementar sistemas eficientes que satisfagan las necesidades organizacionales y tecnológicas.</p>
+          <p>Además de:</p>
+          <ul>
+
+            
+
+
+
+            <li>Concebir, diseñar, implementar y operar sistemas, servicios y aplicaciones informáticas empleando los métodos de la ingeniería del software como instrumento para el aseguramiento de su calidad.</li>
+            <li>Modelar, diseñar, implementar y administrar datos e información, para asegurar la disponibilidad operacional de los datos y garantizar el ambiente de producción y manejo de grandes volúmenes de información.</li>
+            <li>Optimizar procesos mediante el uso de tecnologías de la información.</li>
+            <li>Capacidad para comprender, aplicar, gestionar y garantizar la seguridad de la información en los sistemas informáticos.</li>
+            <li>Desarrollar métodos, herramientas modelos que permitan concebir, diseñar, implementar y operar tecnologías de información para el procesamiento y gestión de información.</li>
           </ul>
 
       </div>

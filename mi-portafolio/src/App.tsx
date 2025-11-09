@@ -1,6 +1,6 @@
 
 import { Routes,Route } from 'react-router-dom';
-import { Header,Footer,Home,Educacion } from './components';
+import { Header,Footer,Home,Educacion,Skills } from './components';
 
 
 
@@ -18,7 +18,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} /> 
-          <Route path="/educacion" element={ <Educacion /> } />
+          <Route path="/Educacion" element={ <Educacion /> } />
+          <Route path="/Skills" element={ <Skills /> } />
           <Route path="*" element={<h1>404 - Not Found - Página No encontrada</h1>} />
           
         </Routes>

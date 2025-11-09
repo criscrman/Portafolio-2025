@@ -24,8 +24,8 @@ export const Header = () => {
           <div className="div2">
             <div className="flex items-center gap-9">
               <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/">Inicio</Link>
-              <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/">About</Link>
-              <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/Educacion">Skills</Link>
+              <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/Educacion">About</Link>
+              <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/Skills">Skills</Link>
               <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/">Projects</Link>
 
               <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/">Contact</Link>

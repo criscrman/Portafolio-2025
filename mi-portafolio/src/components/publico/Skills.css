@@ -10,13 +10,13 @@
 }
 
 .logosSkillsConteiners {    
-    @apply  flex flex-wrap items-center ;
+    @apply  flex flex-wrap items-center py-1.5;
     
 }
 
 .logosSkills {
 
-    @apply  w-12 h-12 m-2 border-2 border-gray-800 rounded-lg ;
+    @apply  w-20 h-20 m-2 border-2 border-gray-800 rounded-lg ;
     
 
 }

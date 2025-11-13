@@ -26,7 +26,7 @@ export const Header = () => {
               <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/">Inicio</Link>
               <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/Educacion">About</Link>
               <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/Skills">Skills</Link>
-              <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/">Projects</Link>
+              <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/Projects">Projects</Link>
 
               <Link className="text-[#0d141c] text-sm font-medium leading-normal" to="/">Contact</Link>
             </div>

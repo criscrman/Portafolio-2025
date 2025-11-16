@@ -6,26 +6,24 @@ export const Footer = () => {
             
             
             <div className="footer-links">
-                 <h3>Contacto</h3>
-            <a href="#">Portafolio</a>
-            <a href="#">Estudios</a>
-            <a href="#">Contacto</a>
+                <h3>Enlaces de Interes</h3>
+                    <a href="./Projects">Portafolio</a>
+                    <a href="./Educacion">Estudios</a>
+                    <a href="./contact">Contacto</a>
             </div>
 
             <div className="footer-links">
                  <h3>Contacto</h3>
-            <a href="#">Portafolio</a>
-            <a href="#">Estudios</a>
-            <a href="#">Contacto</a>
+                    <a href="#">Portafolio</a>
+                    <a href="#">Estudios</a>
+                    <a href="#">Contacto</a>
             </div>
 
             <div className="footer-links">
                 <h3>Contacto</h3>
-            <a href="#">Celular + 3234406146</a>
-            
-            
-            <a href="#">Correo: criscriman@gmail.com</a>
-            <a href="#">LinkedIn: criscriman</a>
+                <a href="#">Celular + 3234406146</a>
+                <a href="#">Correo: criscriman@gmail.com</a>
+                <a href="#">LinkedIn: criscriman</a>
             </div>
 
         <p> © {new Date().getFullYear()} Cristian Galán — Hecho con ❤️ y datos.</p>

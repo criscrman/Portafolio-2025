@@ -5,5 +5,12 @@
 }
 
 .PrimaryButton:hover {
-  @apply bg-blue-700;
+  @apply bg-blue-700 text-[#db7c00];
+}
+
+.SecondaryButton {
+  @apply bg-gray-500 text-white font-bold py-2 px-4 rounded;
+}
+.SecondaryButton:hover {
+  @apply bg-gray-700;
 }

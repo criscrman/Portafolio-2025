@@ -4,8 +4,8 @@
 
 
 .footer {
-    @apply rounded-b-md bg-blue-700 text-gray-700 text-sm 
-    grid grid-cols-3;
+    @apply  w-full rounded-b-md bg-[#A66A6A] text-gray-700 text-sm 
+    grid grid-cols-3 pl-4 pr-3 pt-1 pb-2 gap-1;
 
 }
 
@@ -13,8 +13,12 @@
     @apply gap-1 p-2 text-left text-white;
 
 }
+
+.footer-links{
+    @apply flex flex-col  mt-1.5;
+}
 .footer h3{ 
-    @apply text-lg font-semibold mb-2 text-red-500;
+    @apply text-lg font-semibold text-start text-[#1B1B1F];
 }
    
 
@@ -22,7 +26,7 @@
   text-decoration: underline;
 }
 .footer p{
-    @apply col-start-1 col-end-7 font-bold mb-3 text-white;
+    @apply col-start-1 col-end-7 text-center font-bold mb-3 text-white;
 }
 
 .footer .footer-links {

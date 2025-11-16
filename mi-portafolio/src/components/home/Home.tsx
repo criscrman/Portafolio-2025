@@ -4,6 +4,7 @@ import { useState } from 'react'
 
 
 
+
 export const Home = () => { {
   const [count, setCount] = useState(0)
 
@@ -24,18 +25,18 @@ export const Home = () => { {
                     <div className="items-start">
                             <h1>Hola, mi nombre es Cristian Galán</h1>
 
-                            <p>Bienvenido a mi portafolio</p>
-                    <h2 className="text-4xl font-extrabold leading-tight">Transformo datos en decisiones accionables</h2>
+                            <h2>Bienvenido a mi portafolio</h2>
+                    <h3 className="text-4xl font-extrabold leading-tight">Transformo datos en decisiones accionables</h3>
                     <p className="mt-4 text-gray-600">Ingeniero de Sistemas recién egresado enfocado en análisis de datos, visualización e implementación de soluciones basadas en pipelines reproducibles.</p>
+                   
 
-
-                    <div className="mt-2  flex items-center justify-center gap-2">
-                    <a href="#projects" className="px-4 py-2 rounded-md bg-sky-600 text-white">Ver portafolio</a>
-                    <a href="/cv.pdf" className="px-4 py-2 rounded-md border">Descargar CV</a>
+                    <div className="flex items-center justify-center gap-4 mt-10">
+                    <a href="./Projects" className="PrimaryButton">Ver portafolio</a>
+                    <a href="/cv.pdf" className="SecondaryButton">Descargar CV</a>
                     </div>
 
 
-                    <ul className="mt-6 text-sm text-gray-500 space-y-1">
+                    <ul className="mt-6 text-sm space-y-1">
                     <li>📍 Pereira, Colombia • Disponible para remoto / presencial</li>
                     <li>💻 Stack: Python, SQL, Power BI, Git</li>
                     </ul>
@@ -81,7 +82,7 @@ export const Home = () => { {
                     </div>
                     </section>
 
-                <h3>Proyectos Análisis de datos</h3>
+                <h3>Proyectos</h3>
 
                 <ul>
                     <li>
@@ -98,35 +99,20 @@ export const Home = () => { {
                     </li>
                 </ul>
 
-
-                
-
-
-                <h3>Proyectos Desarrollo web</h3>
-
-                <ul>
-                    <li>
-                    Proyecto 1
-                    <p>Pepe</p>
-                    </li>
-                    <li>Proyecto 2</li>
-                    <li>Proyecto 3</li>
-                </ul>
-
             
 
 
-                /* Skills */
+                {/* Skills */}
             <section id="skills" className="mt-12">
             <h3 className="text-2xl font-bold">Habilidades</h3>
             <div className="mt-4 grid md:grid-cols-2 gap-6">
             <div>
             <h4 className="font-semibold">Técnicas</h4>
             <ul className="mt-2 space-y-2 text-sm text-gray-600">
-            <li>• Python (Pandas, NumPy) — Manipulación y limpieza de datos</li>
-            <li>• SQL — Consultas y modelado relacional</li>
-            <li>• Power BI / Tableau — Dashboards interactivos</li>
-            <li>• Análisis estadístico básico — pruebas, correlaciones</li>
+            <li> Python (Pandas, NumPy) — Manipulación y limpieza de datos</li>
+            <li> SQL — Consultas y modelado relacional</li>
+            <li> Power BI / Tableau — Dashboards interactivos</li>
+            <li> Análisis estadístico básico — pruebas, correlaciones</li>
             </ul>
             </div>
 
@@ -134,33 +120,27 @@ export const Home = () => { {
             <div>
             <h4 className="font-semibold">Blandas</h4>
             <ul className="mt-2 space-y-2 text-sm text-gray-600">
-            <li>• Comunicación de resultados</li>
-            <li>• Resolución de problemas</li>
-            <li>• Trabajo en equipo</li>
-            <li>• Aprendizaje continuo</li>
+            <li> Comunicación de resultados</li>
+            <li> Resolución de problemas</li>
+            <li> Trabajo en equipo</li>
+            <li> Aprendizaje continuo</li>
             </ul>
             </div>
             </div>
             </section>
 
 
-            /* Contact */
-            <section id="contact" className="mt-12 mb-24">
+            {/* Contact */}
+            <section id="contact" className="w-full mt-12 mb-24 text-center">
             <h3 className="text-2xl font-bold">Contacto</h3>
-            <div className="mt-4 md:w-full ">
+            <div className="p-4 border rounded-lg  md:w-full ">
 
+                <p className="text-sm">Email: criscriman@gmail.com</p>
+                <p className="text-sm mt-2">LinkedIn: <a href="https://www.linkedin.com/in/cristian-camilo-galán-chala-a96baa209" target='_blank' className="underline">Linkedin Perfil Cristian Gálan</a></p>
+                <p className="text-sm mt-2">GitHub: <a href="https://github.com/criscrman"  target='_blank' className="underline">https://github.com/criscrman</a></p>
 
-            <div className="p-4 border rounded-lg">
-            <p className="text-sm">Email: <a href="mailto:criscriman@gmail.com" className="underline">criscriman@gmail.com</a></p>
-            <p className="text-sm mt-2">LinkedIn: <a href="https://www.linkedin.com/in/cristian-camilo-galán-chala-a96baa209" className="underline">Linkedin Perfil Cristian Gálan</a></p>
-            <p className="text-sm mt-2">GitHub: <a href="#" className="underline">github.com/tu-usuario</a></p>
-
-
-            <div className="mt-4">
-            <a href="/cv.pdf" className="inline-block px-3 py-2 border rounded">Descargar CV</a>
             </div>
-            </div>
-            </div>
+        
             </section>
                 
                 <div className="card">

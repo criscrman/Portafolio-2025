@@ -4,8 +4,8 @@
 
 
 .footer {
-    @apply  w-full rounded-b-md bg-[#A66A6A] text-gray-700 text-sm 
-    grid grid-cols-3 pl-4 pr-3 pt-1 pb-2 gap-1;
+    @apply  w-full rounded-b-md bg-[#A66A6A] 
+    grid grid-cols-2 grid-rows-3  sm:grid-cols-3 sm:grid-rows-1  pl-4 pr-3 pt-1 pb-2 gap-1;
 
 }
 
@@ -15,11 +15,9 @@
 }
 
 .footer-links{
-    @apply flex flex-col  mt-1.5;
+    @apply flex flex-col  mt-1.5 col-span-3 text-center sm:col-span-1 sm:text-left;
 }
-.footer h3{ 
-    @apply text-lg font-semibold text-start text-[#1B1B1F];
-}
+
    
 
 .footer a:hover {
@@ -30,8 +28,12 @@
 }
 
 .footer .footer-links {
-    @apply   flex flex-col py-0 px-2  mx-1 ;
+    @apply   py-0 px-2  mx-1 ;
 
+}
+
+.copy{
+    @apply row-start-4 text-center col-span-3 font-bold mb-3 text-white;
 }
 
 

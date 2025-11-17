@@ -1,9 +1,10 @@
 @import "tailwindcss";
 #root {
-  @apply min-h-screen flex flex-col text-center items-center justify-center bg-white  ;
+  @apply   w-full flex flex-col text-center items-center justify-center bg-white  ;
   
   margin: 0 auto;
   padding: 2rem;
+
   
 }
 
@@ -46,7 +47,7 @@
 }
 
 .card {
-  padding: 2em;
+  @apply p-6 m-2 w-full text-left  border rounded-lg hover:text-blue-500 focus:text-blue-500;
 }
 
 .read-the-docs {
@@ -54,18 +55,26 @@
 }
 
 #about {
-  @apply text-[#1B1B1F] bg-stone-100 text-sm font-medium leading-normal;
+  @apply text-[#1B1B1F] bg-stone-100 text-sm font-medium leading-normal my-10;
 }
 
-#about h3 {
-  @apply text-[#1B1B1F] font-bold text-2xl xs:text-2xl sm:max-md:text-amber-300 sm:text-4xl lg:text-5xl   ;
+h1 {
+  @apply text-[#1B1B1F] font-bold text-3xl xs:text-3xl sm:text-4xl lg:text-5xl ;
 }
 
-#about h4 {
+h2 {
+  @apply text-[#1B1B1F] font-bold text-2xl xs:text-3xl sm:text-3xl lg:text-4xl ;
+}
+
+ h3 {
+  @apply text-[#1B1B1F] font-bold text-xl text-center xs:text-2xl sm:text-left sm:max-md:text-amber-300 sm:text-4xl lg:text-5xl   ;
+}
+
+ h4 {
   @apply text-[#1B1B1F] font-bold text-3xl xs:text-lg sm:text-2xl lg:text-4xl;
 }
 
-#about p {
+ p {
   @apply text-[#1B1B1F] mt-4 text-sm sm:text-base lg:text-lg;
 }
 
@@ -73,4 +82,12 @@
 #about #card {
   @apply text-blue-500 xs:m-0 xs:py-0.5 sm:m-2 sm:p-4 border rounded-lg;
 
+}
+
+li {
+  @apply text-[#1B1B1F] text-sm sm:text-base lg:text-lg;
+}
+
+a {
+  @apply text-blue-500 hover:underline ml-5;
 }

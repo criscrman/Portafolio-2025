@@ -21,8 +21,8 @@ export const Home = () => { {
     <>
     
 
-                <section id="home" className="grid md:grid-cols-2 gap-8 items-center">
-                    <div className="items-start">
+                <section id="home" className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 items-center">
+                    <div className="items-start sm:col-span-2">
                             <h1>Hola, mi nombre es Cristian Galán</h1>
 
                             <h2>Bienvenido a mi portafolio</h2>
@@ -54,30 +54,34 @@ export const Home = () => { {
 
 
                         {/* About me */}
-                    <section id="about" className="mt-12">
+                    <section id="about">
                     <h3>Sobre mí</h3>
-                    <p className="mt-3 text-gray-600">Soy Ingeniero de Sistemas (Universidad Nacional Abierta y a Distancia-UNAD, 2025). Me apasiona mira todo tipo de datos, y si es posible convertirlos en datasets que terminen en historias claras que ayuden a la toma de decisiones basada en datos, con énfasis para su implementación con buenas prácticas de ingeniería de datos.</p>
+                    <p className="mt-3" >Soy Ingeniero de Sistemas (Universidad Nacional Abierta y a Distancia-UNAD, 2025). Me apasiona mira todo tipo de datos, y si es posible convertirlos en datasets que terminen en historias claras que ayuden a la toma de decisiones basada en datos, con énfasis para su implementación con buenas prácticas de ingeniería de datos.</p>
                 
 
-                    <div className="mt-4 grid md:grid-cols-3 gap-4 xs:gap-1 xs:m-0">
+                    <div className="m-2 p-4 grid md:grid-cols-3 gap-4 xs:gap-2 xs:p-1">
 
 
-                    <div id="card" className="p-4 border rounded-lg">
+                    <div className="card">
                 
                     <h4 className="font-semibold">Educación</h4>
-                    <p className="text-sm  mt-2">Tecnológo en Sistemas de Comunicaciones Inalámbricas — Universidad Nacional Abierta y a Distancia (UNAD). Trabajo de grado: Pasantía en el Centro de Agricultura y Biotecnología - CIAB.</p>
-                    <p className="text-sm mt-2">Ingeniería de Sistemas — Universidad Nacional Abierta y a Distancia (UNAD). Trabajo de grado: Créditos de posgrado en Ciencia de Datos y analítica.</p>
+                        <p className="text-sm  mt-2">Tecnológo en Sistemas de Comunicaciones Inalámbricas — Universidad Nacional Abierta y a Distancia (UNAD). Trabajo de grado: Pasantía en el Centro de Agricultura y Biotecnología - CIAB.</p>
+                        <p className="text-sm mt-2">Ingeniería de Sistemas — Universidad Nacional Abierta y a Distancia (UNAD). Trabajo de grado: Créditos de posgrado en Ciencia de Datos y analítica.</p>
+
+                        
+                        <a href="./Educacion" className='PrimaryButton' >Ver más</a>
                         
                     </div>
-                    <div id="card" className="p-4 border rounded-lg">
-                    <h4 className="font-semibold">Herramientas</h4>
-                    <p className="text-sm mt-2">Python, Pandas, SQL, Power BI, Git, Jupyter</p>
-                    <h4 className="font-semibold">Herramientas Ofimáticas</h4>
-                    <p className="text-sm mt-2">Microsoft Office (Word, Excel, PowerPoint), Google Workspace</p>
+                    <div className="card">
+                        <h4 className="font-semibold">Herramientas</h4>
+                        <p className="text-sm mt-2">Python, Pandas, SQL, Power BI, Git, Jupyter</p>
+                        <h4 className="font-semibold">Herramientas Ofimáticas</h4>
+                        <p className="text-sm mt-2">Microsoft Office (Word, Excel, PowerPoint), Google Workspace</p>
+                        <a href="./Skills" className='PrimaryButton' >Ver más</a>
                     </div>
-                    <div id="card" className="p-4 border rounded-lg">
-                    <h4 className="font-semibold">Certificaciones</h4>
-                    <p className="text-sm mt-2">Python Certified Entry-Level Programmer-PCEP , cursos de Power BI, ciencia y análisis de datos.</p>
+                    <div className="card" >
+                        <h4 className="font-semibold">Certificaciones</h4>
+                        <p className="text-sm mt-2">Python Certified Entry-Level Programmer-PCEP , Cursos de Power BI, Ciencia y Análisis de datos.</p>
                     </div>
                     </div>
                     </section>
@@ -131,13 +135,13 @@ export const Home = () => { {
 
 
             {/* Contact */}
-            <section id="contact" className="w-full mt-12 mb-24 text-center">
+            <section id="contact" className="w-full mt-12 mb-24 text-center ">
             <h3 className="text-2xl font-bold">Contacto</h3>
-            <div className="p-4 border rounded-lg  md:w-full ">
+            <div className="p-4 border rounded-lg  md:w-full bg-[#E3E4E6]">
 
                 <p className="text-sm">Email: criscriman@gmail.com</p>
-                <p className="text-sm mt-2">LinkedIn: <a href="https://www.linkedin.com/in/cristian-camilo-galán-chala-a96baa209" target='_blank' className="underline">Linkedin Perfil Cristian Gálan</a></p>
-                <p className="text-sm mt-2">GitHub: <a href="https://github.com/criscrman"  target='_blank' className="underline">https://github.com/criscrman</a></p>
+                <p className="text-sm mt-2 ">LinkedIn: <a href="https://www.linkedin.com/in/cristian-camilo-galán-chala-a96baa209" rel="noopener noreferrer" target='_blank'>Linkedin de Cristian Gálan</a></p>
+                <p className="text-sm mt-2 ">GitHub: <a href="https://github.com/criscrman"  rel="noopener noreferrer" target='_blank'>https://github.com/criscrman</a></p>
 
             </div>
         

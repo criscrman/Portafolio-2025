@@ -19,8 +19,9 @@ export const Header = () => {
                 ></path>
               </svg>
             </div>
-            <h2>Cristian Camilo Galán Chala</h2>
+            <h2 className="main-title">Cristian Camilo Galán Chala</h2>
           </div>
+
           <div className="div2">
             <div className="flex items-center gap-9">
               <Link className=" text-sm font-medium leading-normal" to="/">Inicio</Link>

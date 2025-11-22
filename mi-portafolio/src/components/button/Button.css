@@ -14,3 +14,7 @@
 .SecondaryButton:hover {
   @apply bg-gray-700;
 }
+
+.Button-icon {
+  @apply flex max-w-[480px] px-4.5 items-center justify-center overflow-hidden rounded-lg h-10 bg-[#FAFAFA] text-[#7C7F85] gap-2 md:gap-4 text-sm font-bold leading-normal tracking-[0.015em] min-w-1.5;
+}

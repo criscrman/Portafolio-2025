@@ -5,12 +5,12 @@
 
 .footer {
     @apply  w-full rounded-b-md bg-[#A66A6A] 
-    grid grid-cols-2 grid-rows-3  sm:grid-cols-3 sm:grid-rows-1  pl-4 pr-3 pt-1 pb-2 gap-1;
+    grid max-md:grid-cols-1 max-md:grid-rows-3   pl-4 pr-3 pt-1 pb-2 gap-1;
 
 }
 
 .footer a {
-    @apply gap-1 p-2 text-left text-white;
+    @apply gap-1 p-2 max-md:text-center  text-white;
 
 }
 
@@ -24,7 +24,11 @@
   text-decoration: underline;
 }
 .footer p{
-    @apply col-start-1 col-end-7 text-center font-bold mb-3 text-white;
+    @apply col-start-1 col-end-7 font-bold mb-3 text-white;
+}
+
+.h4-footer {
+    @apply text-lg max-md:text-center font-semibold mb-2;
 }
 
 .footer .footer-links {
@@ -33,7 +37,7 @@
 }
 
 .copy{
-    @apply row-start-4 text-center col-span-3 font-bold mb-3 text-white;
+    @apply row-start-4 col-span-3 font-bold text-white;
 }
 
 
